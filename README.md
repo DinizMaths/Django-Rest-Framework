@@ -6,8 +6,10 @@ Instalando Django
 Criando projeto **setup**
 `$ django-admin startproject setup .`
 
-Dentro do arquivo settings.py
+Dentro do arquivo **setup/settings.py**
 ```python
 LANGUAGE_CODE = 'pt-br'
 TIME_ZONE = 'America/Sao_Paulo'
 ```
+Para rodar o projeto
+`$ python manage.py runserver`
