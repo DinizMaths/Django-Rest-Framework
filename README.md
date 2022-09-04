@@ -21,4 +21,13 @@ Instalando **djangorestframework**
 `$ pip3 install djangorestframework`
 
 Altera-se **setup/settings.py**
-`INSTALLED_APPS = [..., 'rest_framework']`
+```python
+INSTALLED_APPS = [..., 'rest_framework']
+```
+Para incluir o app como parte da aplicação, em **setup/settings.py**
+```python
+INSTALLED_APPS = [..., 'escola']
+```
+Então em seguida
+`$ python manage.py makemigrations`
+`$ python manage.py migrate`
